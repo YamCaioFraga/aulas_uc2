@@ -1,0 +1,14 @@
+
+    h1{color:blue;
+    font-family: Arial, Helvetica, sans-serif;font-size: 100px;}
+    h2{color: blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+    h3{color: brown;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+    h4{color: aquamarine;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    P{color: rgb(241, 8, 172);
+    font-family: 'Times New Roman', Times, serif;}
+    body{background-color: rgb(12, 247, 51);}
+    a {color:black;
+    background-color: rgb(108, 6, 204);}
