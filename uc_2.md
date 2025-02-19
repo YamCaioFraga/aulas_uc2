@@ -3,7 +3,7 @@
 - As tags podem possuir somenteabertura ou a abertura/encerramento.
 
 1. Principais tags
-<h1></h1> até a <h6></h6> - Titulos.
+<h1></h1> até o <h6></h6> - Titulos.
 <p></p> Parágrafos.
 <a></a> Tag de link.
 <img> -> Tag responsável por apresentar imagem.
@@ -24,3 +24,23 @@
  - color: -> Irá coloca ruma cor no texto.
  - background: -> Irá colocar uma cor de preenchimento no fundo do elemento.
  - font-size: -> Irá alterar o tamanho da fonte.
+
+
+
+ # AULA_03
+
+ ## SELETORES NO CSS!
+ =>È a forma como você irá chamar um determinado elemento do [HTML] no [CSS].
+ 
+ 1. tag -> Basicamente, você chama a tag em sí para realizar a estilização.
+ * Quando você chama diretamente a tag, cuidado para não estilizar todos os elementos que possuem aquela tag. 
+
+2. #id -> Você cria um identificador único na tag do elemento [HTML] e chama esse identificador no [CSS].
+
+3. .class -> Você cria um "apelido" na tag do elemento e esse "apelido" pode ser utilizado quantas vezes for necessário inclusive com outras tags diferentes.
+
+## SISTEMA DE CORES!
+1. nome da cor -> Especifíca o valor da cor em inglês.
+2. hexadecimal -> Especifíca o valor da cor através de ua sequêcia alfa-numérica.
+3. rgb -> Especifíca a cor través da intensidade do red[vermelho],green[verde] e blue[azul].
+4. rgba -> São os mesmos valores do rgb,Porém com o valor do alpha[opacidade]. 

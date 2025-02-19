@@ -1,0 +1,15 @@
+h2{
+    background-color: rgb(0, 255, 170);
+    color: rgb(9, 14, 14);
+}
+.minha_h2{
+    background-color: rgb(20, 26, 15);
+    color: rgb(235, 37, 37);
+}
+#seletor_p1{
+    background-color: indigo;
+    color: aliceblue;
+}
+.deixar_verde{
+    background-color: lawngreen;
+}
