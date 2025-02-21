@@ -1,0 +1,55 @@
+/* 
+=====================
+Estilização do global
+===================== 
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif; /* Altera o tipo de fonte presente no documento*/
+    background-color: #f7f7f7;
+}
+
+p{
+    font-size: 20px; /* Alterando o tamanho dos paragrafos de 16px(padrão) para 20 px*/
+}
+
+a{
+    text-decoration: none; /* Tira qualquer decoração que tenha na tag a */
+}
+
+img{
+    max-width: 100%; /* Evita que ocorra o overflow, a img ocupa 100% do elemento pai*/
+}
+
+li{
+    list-style: none;
+    
+}
+
+
+/* 
+=====================
+Estilização do header
+===================== 
+*/
+.menu{
+    display: flex; /* Alinha os itens na horizontal*/
+    gap: 30px; /* Cria um distanciamento entre os itens*/
+    
+}
+
+.menu a{
+    background-color: #FFFFFF;
+    padding: 10px 20px; /* Espaçamento interno, quando utilizamos o atalho padding com dois valores, o primeiro valor é para cima/baixo e o segundo valor é para direita/esquerda */
+    border-radius: 5px; /* Arredonda as bordas*/
+    color: black;
+    text-transform: uppercase; /* Deixa o texto com letras maiúsculas*/
+    
+}
+
+.menu a:hover{
+    background-color: #ee2211;
+    color: #ffffff;
+
+}
+

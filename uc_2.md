@@ -31,7 +31,7 @@
 
  ## SELETORES NO CSS!
  =>È a forma como você irá chamar um determinado elemento do [HTML] no [CSS].
- 
+ link:css
  1. tag -> Basicamente, você chama a tag em sí para realizar a estilização.
  * Quando você chama diretamente a tag, cuidado para não estilizar todos os elementos que possuem aquela tag. 
 
@@ -44,3 +44,33 @@
 2. hexadecimal -> Especifíca o valor da cor através de ua sequêcia alfa-numérica.
 3. rgb -> Especifíca a cor través da intensidade do red[vermelho],green[verde] e blue[azul].
 4. rgba -> São os mesmos valores do rgb,Porém com o valor do alpha[opacidade]. 
+
+
+# AULA_04
+
+1. <img> -> tag responsável por inserir uma imagem interna ou externa
+- src -> É onde é inserido o caminho da imagem.
+- alt -> É o texto alternativo que será exibido caso a imagem "quebre" e por questões de acesibilidade.
+EX:<img src="Caminho da imagem" alt="descrição da imagem "> 
+
+2. Listas 
+<ul></ul> -> Informa que existirá itens e a posição desses itens não importa.(Lista não ordenada!)
+<ol></ol> -> Informa que existirá itens e a posição desses itens importa.(Lista ordenada!) 
+<li></li> -> Cada item da lista.(indepemdente da lista!)
+
+3. tag de link 
+<a></a> -> É utilizada para gerar um texto clicável.(link)
+- href -> É uma propriedade onde voçê irá informar qual o caminho que o link irá enviar o usuário
+EX:<a href="Caminho do link">Sobre</a>
+
+
+## CSS
+1. `font-family: Arial, Helvetica, sans-serif;`; -> Propriedade que altera a tipografia utilizada no elemento.
+
+2. `padding` -> É o espaçamento interno de um conteúdo até a borda.
+
+3. `margin` -> É o espaçamento externo entre a borda e o elemento 
+
+4. border -> É o elemento.
+
+5. text-align -> 
