@@ -60,7 +60,7 @@ EX:<img src="Caminho da imagem" alt="descrição da imagem ">
 
 3. tag de link 
 <a></a> -> É utilizada para gerar um texto clicável.(link)
-- href -> É uma propriedade onde voçê irá informar qual o caminho que o link irá enviar o usuário
+- ``href`` -> É uma propriedade onde voçê irá informar qual o caminho que o link irá enviar o usuário
 EX:<a href="Caminho do link">Sobre</a>
 
 
@@ -71,6 +71,29 @@ EX:<a href="Caminho do link">Sobre</a>
 
 3. `margin` -> É o espaçamento externo entre a borda e o elemento 
 
-4. border -> É o elemento.
+4. ``border`` -> É o elemento.
 
-5. text-align -> 
+5. ``text-align`` -> 
+
+# AULA_05
+
+1. POSICIONAMENTO (GRID).
+GRID -> É uma das tecnologias mais utilizadas nos sistemas web e sites. A lógica utilizada é separar a tela em colunas e linhas que podem ser diferentes tamanhos.
+
+2. UTILIZANDO O GRID.
+Utilizamos a propriedade display com o valor de grid.
+EX: ``display: grid;``
+
+3. PRINCIPAIS PROPRIEDADES DO GRID
+ - ``grid-template-columns: ;`` -> Propriedade utilizada para informar quantas colunas e quais os tamanhos você irá utilizar.
+
+- ``grid-template-rows:`` -> Propriedade utilizada para informar quantas linhas serão geradas e o tamanho delas.
+
+* Métricas Utilizadas!
+%, e px -> evitar 
+fr -> Fração referente a página toda.
+auto -> Tamanho de forma automática 
+
+``grid-row:`` -> Define qual linha o elemento irá se posicionar.
+``grid-column:`` ->  Define qual coluna o elemento irá se posicionar. 
+
